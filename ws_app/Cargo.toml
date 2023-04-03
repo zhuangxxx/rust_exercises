@@ -1,0 +1,22 @@
+[package]
+name = "rs-gui"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "ws_serve"
+path = "src/ws_srv.rs"
+
+[[bin]]
+name = "ws_app"
+path = "src/ws_gui.rs"
+
+[dependencies]
+anyhow = "1"
+tracing = "0.1"
+tracing-subscriber = "0.3"
+eframe = "0.21"
+crossbeam = "0.8"
+ws = "0.9"

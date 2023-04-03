@@ -3,9 +3,6 @@
         "deque",
         "eframe",
         "egui",
-        "epaint",
-        "sharded",
-        "tungstenite",
-        "uninit"
+        "epaint"
     ]
 }
